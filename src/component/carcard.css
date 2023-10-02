@@ -1,0 +1,126 @@
+/* Car Card styles */
+.car-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .car-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .car-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .car-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .car-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Car Card styles */
+.car-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  width: 280px;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+.car-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.car-card h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.car-details {
+  margin-top: 20px;
+}
+
+.car-details p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.car-buttons {
+  margin-top: 20px;
+}
+
+.car-buttons button {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.car-buttons button:hover {
+  background-color: #FEC100;
+}
+/* Car Card styles */
+
+
+.car-buttons button {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.car-buttons button:hover {
+  background-color: #FEC100;
+}
+
+/* Add a cool rotation animation to the like button on hover */
+.car-buttons button:hover .like-icon {
+  animation: rotateLike 0.5s ease-in-out infinite;
+}
+
+@keyframes rotateLike {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
