@@ -1,3 +1,53 @@
+import a from './../images/1.jpeg'
+import b from './../images/2.jpeg'
+import c from './../images/3.jpeg'
+import d from './../images/4.jpeg'
+import e from './../images/5.jpeg'
+import f from './../images/6.jpeg'
+import g from './../images/7.jpeg'
+import h from './../images/8.jpeg'
+import i from './../images/9.jpeg'
+import j from './../images/10.jpeg'
+import k from './../images/11.jpeg'
+import l from './../images/12.jpeg'
+import m from './../images/13.jpeg'
+import n from './../images/14.jpeg'
+import o from './../images/15.jpeg'
+import p from './../images/16.jpeg'
+import q from './../images/17.jpeg'
+import r from './../images/18.jpeg'
+import s from './../images/19.jpeg'
+import t from './../images/20.jpeg'
+import u from './../images/21.jpeg'
+import v from './../images/22.jpeg'
+import w from './../images/23.jpeg'
+import x from './../images/24.jpeg'
+import y from './../images/25.jpeg'
+import z from './../images/26.jpeg'
+import aa from './../images/27.jpeg'
+import ab from './../images/28.jpeg'
+import ac from './../images/29.jpeg'
+import ad from './../images/30.jpeg'
+import ae from './../images/31.jpeg';
+import af from './../images/32.jpeg'
+import ag from './../images/33.jpeg'
+import ah from './../images/34.jpeg'
+import ai from './../images/35.jpeg'
+import aj from './../images/36.jpeg'
+import ak from './../images/37.jpeg'
+import al from './../images/38.jpeg'
+import am from './../images/39.jpeg'
+import an from './../images/40.jpeg'
+import ao from './../images/41.jpeg'
+import ap from './../images/42.jpeg'
+import aq from './../images/43.jpeg'
+import ar from './../images/44.jpeg'
+import as from './../images/45.jpeg'
+import at from './../images/46.jpeg'
+import au from './../images/47.jpeg'
+import av from './../images/48.jpeg'
+import aw from './../images/49.jpeg'
+import ax from './../images/50.jpeg'
 
 const CarsData = [
   {
@@ -9,8 +59,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531'
-  },
+    imageUrl: a
+    },
   {
     id: 2,
     name: 'BMW X5',
@@ -20,8 +70,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=%2fYvqU3SH&id=87DFF3B77B6A1E08C98FE1C73A7D70BE07813376&thid=OIP._YvqU3SHKixcMWElMSaBiAHaE7&mediaurl=https%3a%2f%2fcar-images.bauersecure.com%2fpagefiles%2f4512%2fbmw-x5.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.fd8bea5374872a2c5c31612531268188%3frik%3ddjOBB75wfTrH4Q%26pid%3dImgRaw%26r%3d0&exph=1131&expw=1700&q=BMW+X5&simid=608041527149143766&FORM=IRPRST&ck=C8280BF59DD916C1B82238B33D8768D8&selectedIndex=3&darkschemeovr=1&PC=U531',
-  },
+    imageUrl: b
+    },
   {
     id: 3,
     name: 'Chevrolet Cruze',
@@ -31,8 +81,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531',
-  },
+    imageUrl: c
+    },
   {
     id: 4,
     name: 'Dodge Charger',
@@ -42,8 +92,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=HVwsfNq0&id=02AC58EAB83F7901044556FA6DBD8A5C00FDE609&thid=OIP.HVwsfNq0N9IrvQpjr8QpbAHaFQ&mediaurl=https%3a%2f%2fwww.lifequestalliance.com%2fwp-content%2fuploads%2f2021%2f05%2f2022-Dodge-Charger-awd-is-there-a-v8-how-does-system-work-.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.1d5c2c7cdab437d22bbd0a63afc4296c%3frik%3dCeb9AFyKvW36Vg%26pid%3dImgRaw%26r%3d0&exph=866&expw=1220&q=Dodge+Charger+2022&simid=607986762024046166&FORM=IRPRST&ck=DF0BA0BABDAEC22361D22BC0A7CC5A71&selectedIndex=6&darkschemeovr=1&PC=U531',
-  },
+    imageUrl: d
+    },
   {
     id: 5,
     name: 'Ford Mustang',
@@ -53,8 +103,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531',
-  },
+    imageUrl: e
+    },
   {
     id: 6,
     name: 'Honda Civic',
@@ -64,7 +114,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://example.com/car6.jpg',
+    imageUrl: f
   },
   {
     id: 7,
@@ -75,7 +125,7 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://example.com/car7.jpg',
+    imageUrl: g
   },
   {
     id: 8,
@@ -86,7 +136,7 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://example.com/car8.jpg',
+    imageUrl: h
   },
   {
     id: 9,
@@ -97,7 +147,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://example.com/car9.jpg',
+    imageUrl: i
   },
   {
     id: 10,
@@ -108,7 +158,7 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://example.com/car10.jpg',
+    imageUrl: j
   },
   {
     id: 11,
@@ -119,7 +169,7 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://example.com/car11.jpg',
+    imageUrl: k
   },
   {
     id: 12,
@@ -130,7 +180,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://example.com/car12.jpg',
+    imageUrl: l
   },
   {
     id: 13,
@@ -141,18 +191,18 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://example.com/car13.jpg',
+    imageUrl: m
   },
   {
     id: 14,
     name: 'Tesla Model 3',
-    yearProduced: 2023,
+    yearProduced: 2020,
     occupants: 4,
     hybrid: true,
     distanceOnFullTank: 500,
-    automatic: false,
+    automatic: true,
     price: 32000,
-    imageUrl: 'https://example.com/car14.jpg',
+    imageUrl: n
   },
   {
     id: 15,
@@ -163,7 +213,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://example.com/car15.jpg',
+    imageUrl: o
   },
   {
     id: 16,
@@ -174,7 +224,7 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://example.com/car16.jpg',
+    imageUrl: p
   },
   {
     id: 17,
@@ -185,7 +235,7 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://example.com/car17.jpg',
+    imageUrl: q
   },
   {
     id: 18,
@@ -196,7 +246,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://example.com/car18.jpg',
+    imageUrl: r
   },
   {
     id: 19,
@@ -207,7 +257,7 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://example.com/car19.jpg',
+    imageUrl: s
   },
   {
     id: 20,
@@ -218,7 +268,7 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: 'https://example.com/car20.jpg',
+    imageUrl: t
   },
   {
     id: 21,
@@ -228,8 +278,8 @@ const CarsData = [
     hybrid: false,
     distanceOnFullTank: 300,
     automatic: true,
-    price: 300000,
-    imageUrl: 'https://example.com/car21.jpg',
+    price: 350000,
+    imageUrl: u
   },
   {
     id: 22,
@@ -240,7 +290,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 280000,
-    imageUrl: 'https://example.com/car22.jpg',
+    imageUrl: v
   },
   {
     id: 23,
@@ -251,7 +301,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 270000,
-    imageUrl: 'https://example.com/car23.jpg',
+    imageUrl: w
   },
   {
     id: 24,
@@ -262,7 +312,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 350000,
-    imageUrl: 'https://example.com/car24.jpg',
+    imageUrl: x
   },
   {
     id: 25,
@@ -273,7 +323,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 3000000,
-    imageUrl: 'https://example.com/car25.jpg',
+    imageUrl: y
   },
   {
     id: 26,
@@ -284,7 +334,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 250000,
-    imageUrl: 'https://example.com/car26.jpg',
+    imageUrl: z
   },
   {
     id: 27,
@@ -295,7 +345,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 400000,
-    imageUrl: 'https://example.com/car27.jpg',
+    imageUrl: aa
   },
   {
     id: 28,
@@ -306,7 +356,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 90000,
-    imageUrl: 'https://example.com/car28.jpg',
+    imageUrl: ab 
   },
   {
     id: 29,
@@ -317,7 +367,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 95000,
-    imageUrl: 'https://example.com/car29.jpg',
+    imageUrl: ac
   },
   {
     id: 30,
@@ -328,7 +378,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 85000,
-    imageUrl: 'https://example.com/car30.jpg',
+    imageUrl: ad
   },
   {
     id: 31,
@@ -339,7 +389,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 35000,
-    imageUrl: 'https://example.com/car31.jpg',
+    imageUrl: ae
   },
   {
     id: 32,
@@ -350,7 +400,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 30000,
-    imageUrl: 'https://example.com/car32.jpg',
+    imageUrl: af
   },
   {
     id: 33,
@@ -361,7 +411,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 70000,
-    imageUrl: 'https://example.com/car33.jpg',
+    imageUrl: ag 
   },
   {
     id: 34,
@@ -372,7 +422,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: 'https://example.com/car34.jpg',
+    imageUrl: ah
   },
   {
     id: 35,
@@ -383,7 +433,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 40000,
-    imageUrl: 'https://example.com/car35.jpg',
+    imageUrl: ai
   },
   {
     id: 36,
@@ -394,7 +444,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: 'https://example.com/car36.jpg',
+    imageUrl: aj
   },
   {
     id: 37,
@@ -405,7 +455,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 35000,
-    imageUrl: 'https://example.com/car37.jpg',
+    imageUrl: ak
   },
   {
     id: 38,
@@ -416,7 +466,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 38000,
-    imageUrl: 'https://example.com/car38.jpg',
+    imageUrl: al
   },
   {
     id: 39,
@@ -427,7 +477,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 32000,
-    imageUrl: 'https://example.com/car39.jpg',
+    imageUrl: am
   },
   {
     id: 40,
@@ -438,7 +488,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 450000,
-    imageUrl: 'https://example.com/car40.jpg',
+    imageUrl: an
   },
   {
     id: 41,
@@ -449,7 +499,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 75000,
-    imageUrl: 'https://example.com/car41.jpg',
+    imageUrl: ao
   },
   {
     id: 42,
@@ -460,7 +510,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 33000,
-    imageUrl: 'https://example.com/car42.jpg',
+    imageUrl: ap
   },
   {
     id: 43,
@@ -471,7 +521,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 60000,
-    imageUrl: 'https://example.com/car43.jpg',
+    imageUrl: aq
   },
   {
     id: 44,
@@ -482,7 +532,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 28000,
-    imageUrl: 'https://example.com/car44.jpg',
+    imageUrl: ar
   },
   {
     id: 45,
@@ -493,7 +543,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 34000,
-    imageUrl: 'https://example.com/car45.jpg',
+    imageUrl: as
   },
   {
     id: 46,
@@ -504,7 +554,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 58000,
-    imageUrl: 'https://example.com/car46.jpg',
+    imageUrl: at
   },
   {
     id: 47,
@@ -515,7 +565,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: 'https://example.com/car47.jpg',
+    imageUrl: au
   },
   {
     id: 48,
@@ -526,7 +576,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 40000,
-    imageUrl: 'https://example.com/car48.jpg',
+    imageUrl: av
   },
   {
     id: 49,
@@ -537,7 +587,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 32000,
-    imageUrl: 'https://example.com/car49.jpg',
+    imageUrl: aw
   },
   {
     id: 50,
@@ -548,7 +598,7 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 33000,
-    imageUrl: 'https://example.com/car50.jpg',
+    imageUrl: ax
   },
 ];
 

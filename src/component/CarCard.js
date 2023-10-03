@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaCalendar, FaUsers, FaBolt, FaRoad, FaCogs, FaDollarSign, FaThumbsUp } from 'react-icons/fa';
 import './carcard.css';
-import CarsData from './CarsData';
+import imageUrl from './CarsData'
 
 function CarCard({ car }) {
   const {
