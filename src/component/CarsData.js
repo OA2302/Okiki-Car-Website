@@ -1,4 +1,3 @@
-// carsData.js
 
 const CarsData = [
   {
@@ -10,7 +9,7 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531',
+    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531'
   },
   {
     id: 2,
@@ -32,7 +31,7 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=WWIoh7%2bU&id=1CBB48C8796246075CCAAB773CD0E42383AF5449&thid=OIP.WWIoh7-Uckj8CQFGRKlXdgHaD5&mediaurl=https%3a%2f%2fchevrolet-buff.com%2fwp-content%2fuploads%2f2021%2f02%2f2022-Chevy-Cruze-Hatchback-768x404.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.59622887bf947248fc09014644a95776%3frik%3dSVSvgyPk0Dx3qw%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d683%26srw%3d1300&exph=404&expw=768&q=Chevrolet+Cruze+2022&simid=608003486612289109&FORM=IRPRST&ck=3AFF20C2D0CC2583CC125D8561FE4154&selectedIndex=2&darkschemeovr=1&PC=U531',
+    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531',
   },
   {
     id: 4,
@@ -54,7 +53,7 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: '',
+    imageUrl: 'https://www.bing.com/images/search?view=detailV2&ccid=VMfSQXf%2b&id=5CB3A81E94B662F998D454EDEC3C229404D98B90&thid=OIP.VMfSQXf-K5PASprkdBiStAHaE7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54c7d24177fe2b93c04a9ae4741892b4%3frik%3dkIvZBJQiPOztVA%26riu%3dhttp%253a%252f%252fcdn-imgsvr.cars.co.za%252fimages%252f2017%252f1%252fAudi-A3%252fx.jpg%252fIMG_9276.JPG%26ehk%3dFc5h3mzQt%252bRq1OEoFpVP2Cj3WQ4UPuF%252fopge9m7r4tc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1066&expw=1600&q=audi+a3&simid=608030815520181507&FORM=IRPRST&ck=E88C6E597938885272E83E64F4B3662A&selectedIndex=0&PC=U531',
   },
   {
     id: 6,

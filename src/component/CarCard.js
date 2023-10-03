@@ -1,6 +1,8 @@
-import React from 'react';
-import {FaCalendar, FaUsers, FaBolt, FaRoad, FaCogs, FaDollarSign, FaThumbsUp } from 'react-icons/fa';
-import './carcard.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { FaCalendar, FaUsers, FaBolt, FaRoad, FaCogs, FaDollarSign, FaThumbsUp } from 'react-icons/fa';
+import './carcard.css';
+import CarsData from './CarsData';
 
 function CarCard({ car }) {
   const {
@@ -17,10 +19,9 @@ function CarCard({ car }) {
   return (
     <div className="car-card">
       <img src={imageUrl} alt={name} />
-      <h3>{name}</h3>
-      <p>
-        <FaCalendar /> Year Produced: {yearProduced}
-      </p>
+
+      <h2>{name}</h2>
+      <p> <FaCalendar/>Year Produced: {yearProduced}</p>
       <p>
         <FaUsers /> Occupants: {occupants}
       </p>
@@ -38,11 +39,16 @@ function CarCard({ car }) {
       <p>
         <FaDollarSign /> Price: ${price}
       </p>
+      <div className='flex'>
       <button className="like-button">
-        <FaThumbsUp/>
-        </button>
-        </div>
-        );
-      }
+        <FaThumbsUp />
+      </button>
+      <button>
+        Rent Now
+      </button>
+      </div>
+    </div>
+  );
+}
 
-      export default CarCard;
+export default CarCard;

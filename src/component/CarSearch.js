@@ -1,23 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import CarCard from './CarCard'
-import CarsData from './CarsData';
+import React, { useState } from 'react';
+import './search.css'; // Import the styles for the SearchBar component
 
-function CarSearch() {
-  const [carData, setCarData] = useState([]);
+function SearchBar({ onSearch }) {
+  const [searchTerm, setSearchTerm] = useState('');
 
-  useEffect(() => {
-    // You can fetch car data from an API here
-    // For this example, we're using a static carsData array
-    setCarData(CarsData);
-  }, []);
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleSearch = () => {
+    onSearch(searchTerm);
+  };
 
   return (
-    <div className="car-search">
-      {carData.map((car) => (
-        <CarCard key={car.id} car={car} />
-      ))}
+    <div className="search-bar">
+      <input
+        type="text"
+        placeholder="Search cars..."
+        value={searchTerm}
+        onChange={handleInputChange}
+      />
+      <button onClick={handleSearch}>Search</button>
     </div>
   );
 }
 
-export default CarSearch;
+export default SearchBar;
