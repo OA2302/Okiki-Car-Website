@@ -112,23 +112,35 @@
 }
 
 /* Add a cool rotation animation to the like button on hover */
-.car-buttons button:hover .like-icon {
-  animation: rotateLike 0.5s ease-in-out infinite;
+.like-button:hover {
+  animation: rotateLike 0.8s ease-in-out ;
+  width: 15%;
+  font-size: x-large;
+  color: #0078d4;
+  background: #fff;
 }
 
 @keyframes rotateLike {
   0% {
     transform: rotate(0deg);
+    font-size: larger;
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(40deg);
+    font-size: x-large;
   }
   100% {
     transform: rotate(0deg);
+    font-size: x-large;
   }
 }
 @media screen and (max-width: 768px) {
   .car-card {
-    padding: 10px; /* Reduce padding for smaller screens */
+    padding: 10px; 
+    width: 85%;
+    justify-items: center;
   }
+  button {
+    width: 25%;
+}
 }

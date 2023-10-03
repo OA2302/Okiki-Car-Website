@@ -28,8 +28,9 @@
       margin-top: 10px; /* Adjust margin for smaller screens */
     }
   
-    .pagination-button {
+    .pagination button {
       padding: 5px 10px; /* Adjust button padding for smaller screens */
       margin: 0 3px; /* Adjust button margin for smaller screens */
+      grid-template-columns: repeat(4, 1fr);
     }
   }

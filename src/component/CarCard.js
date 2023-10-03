@@ -39,7 +39,7 @@ function CarCard({ car }) {
       <p>
         <FaDollarSign /> Price: ${price}
       </p>
-      <div className='flex'>
+      <div className='flex' >
       <button className="like-button">
         <FaThumbsUp />
       </button>
