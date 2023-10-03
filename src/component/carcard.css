@@ -127,3 +127,8 @@
     transform: rotate(0deg);
   }
 }
+@media screen and (max-width: 768px) {
+  .car-card {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
