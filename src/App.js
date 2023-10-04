@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   const [cars, setCars] = useState(CarsData);
   const [currentPage, setCurrentPage] = useState(1);
-  const carsPerPage = 6;
+  const carsPerPage = 9;
   const [filter, setFilter] = useState('All'); // State for the selected filter option
 
   const indexOfLastCar = currentPage * carsPerPage;
@@ -36,20 +36,21 @@ function App() {
   return (
     <div className="App">
       <div className="flex">
-        <h1>Okiki Auto store</h1>
-        <SearchBar onSearch={handleSearch} />
+        <h1><a href='inex.html'>Okiki Auto store</a></h1>
 
-        {/* Filter bar for car types */}
         <div className="filter-bar">
           <label>Filter by Car Type:</label>
           <select onChange={(e) => setFilter(e.target.value)}>
-            <option value="All">All Cars</option>
-            <option value="Sports">Sports Cars</option>
-            <option value="Muscle">Muscle Cars</option>
-            <option value="Family">Family Cars</option>
+          <option value="">All</option>
+          <option value="Sedan">Sedan</option>
+          <option value="SUV">SUV</option>
+          <option value="Sports">Sports</option>
+          <option value="Muscle">Muscle</option>
+          <option value="Luxury">Luxury</option>
           </select>
         </div>
       </div>
+      <SearchBar onSearch={handleSearch} />
 
       <CarList cars={currentCars} />
       <Pagination

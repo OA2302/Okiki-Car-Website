@@ -30,8 +30,7 @@
     margin: 5px 0;
     color: #555;
   }
-  
-  /* Car Card styles */
+
 .car-card {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -46,6 +45,7 @@
 
 .car-card:hover {
   transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .car-card img {
@@ -53,9 +53,13 @@
   height: auto;
   border-radius: 10px;
 }
+.car-card:hover img {
+  transform: scale(1.1); /* Adjust the scale factor to control the zoom level */
+}
 .flex {
   display: flex;
   gap: 50px;
+  background: #0078d4;
 }
 .car-card h3 {
   font-size: 24px;
@@ -73,78 +77,40 @@
   color: #555;
 }
 
-.car-buttons {
-  margin-top: 20px;
-}
 
-.car-buttons button {
-  background-color: #0078d4;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 5px;
-  padding: 8px 16px;
-  font-size: 16px;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.car-buttons button:hover {
-  background-color: #FEC100;
-}
-/* Car Card styles */
-
-
-.car-buttons button {
-  background-color: #0078d4;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 5px;
-  padding: 8px 16px;
-  font-size: 16px;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.car-buttons button:hover {
-  background-color: #FEC100;
-}
-
-/* Add a cool rotation animation to the like button on hover */
-/* carcard.css */
 
 .like-button {
-  background-color: #007bff; /* Blue background color */
-  color: white; /* Text color */
-  border: none; /* Remove border */
-  padding: 8px 16px; /* Add padding */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  border-radius: 4px; /* Add border radius */
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.flx {
+  display: flex;
+  gap: 10px;
 }
 
 .like-button:hover {
-  background-color: #0056b3; /* Darker blue color on hover */
+  background-color: transparent;
+  color: rgb(255, 0, 43);
 }
 
 
 
 
-
-/* carcard.css */
 
 @keyframes rotateLike {
   0% {
     transform: rotate(0deg);
-    font-size: larger;
+    font-size: large;
   }
   50% {
     transform: rotate(40deg);
-    font-size: x-large;
+    font-size: larger;
   }
   100% {
     transform: rotate(0deg);
-    font-size: x-large;
+    font-size: larger;
   }
 }
 
@@ -161,7 +127,7 @@
     width: 85%;
     justify-items: center;
   }
-  button {
+  .btn {
     width: 25%;
 }
 }

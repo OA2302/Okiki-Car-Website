@@ -54,14 +54,14 @@ function CarCard({ car }) {
       <p>
         <FaDollarSign /> Price: ${price}
       </p>
-      <div className='flex' >
-      <button className={likeButtonClass} onClick={handleLikeClick}>
-        <FaThumbsUp/>
-          {isLiked ? 'Liked!' : 'Like'}
-          <p> {likes}</p>
+      <div className='flex'>
+      <button className='flx' onClick={handleLikeClick}>
+      <a> {likes}</a>
+        <FaThumbsUp className={likeButtonClass} />
+          {isLiked ? 'Liked!' : 'like'}
         </button>
        
-      <PaymentForm car={car} />
+      <PaymentForm car={car} className="btn"/>
       </div>
     </div>
   );

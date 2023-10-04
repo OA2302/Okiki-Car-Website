@@ -49,6 +49,7 @@ import av from './../images/48.jpeg'
 import aw from './../images/49.jpeg'
 import ax from './../images/50.jpeg'
 
+
 const CarsData = [
   {
     id: 1,
@@ -59,8 +60,9 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: a
-    },
+    imageUrl: a,
+    carType: 'Sedan'
+  },
   {
     id: 2,
     name: 'BMW X5',
@@ -70,8 +72,9 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: b
-    },
+    imageUrl: b,
+    carType: 'SUV'
+  },
   {
     id: 3,
     name: 'Chevrolet Cruze',
@@ -81,8 +84,9 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: c
-    },
+    imageUrl: c,
+    carType: 'Sedan'
+  },
   {
     id: 4,
     name: 'Dodge Charger',
@@ -92,8 +96,9 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: d
-    },
+    imageUrl: d,
+    carType: 'Sedan'
+  },
   {
     id: 5,
     name: 'Ford Mustang',
@@ -103,8 +108,9 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: e
-    },
+    imageUrl: e,
+    carType: 'Muscle'
+  },
   {
     id: 6,
     name: 'Honda Civic',
@@ -114,7 +120,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: f
+    imageUrl: f,
+    carType: 'Sedan'
   },
   {
     id: 7,
@@ -125,7 +132,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: g
+    imageUrl: g,
+    carType: 'Sedan'
   },
   {
     id: 8,
@@ -136,7 +144,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: h
+    imageUrl: h,
+    carType: 'SUV'
   },
   {
     id: 9,
@@ -147,7 +156,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: i
+    imageUrl: i,
+    carType: 'SUV'
   },
   {
     id: 10,
@@ -158,7 +168,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: j
+    imageUrl: j,
+    carType: 'Sedan'
   },
   {
     id: 11,
@@ -169,7 +180,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: k
+    imageUrl: k,
+    carType: 'Sedan'
   },
   {
     id: 12,
@@ -180,7 +192,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: l
+    imageUrl: l,
+    carType: 'Sedan'
   },
   {
     id: 13,
@@ -191,7 +204,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: m
+    imageUrl: m,
+    carType: 'Sedan'
   },
   {
     id: 14,
@@ -202,7 +216,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: true,
     price: 32000,
-    imageUrl: n
+    imageUrl: n,
+    carType: 'Electric'
   },
   {
     id: 15,
@@ -213,7 +228,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: o
+    imageUrl: o,
+    carType: 'SUV'
   },
   {
     id: 16,
@@ -224,7 +240,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: p
+    imageUrl: p,
+    carType: 'SUV'
   },
   {
     id: 17,
@@ -235,7 +252,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: q
+    imageUrl: q,
+    carType: 'SUV'
   },
   {
     id: 18,
@@ -246,7 +264,8 @@ const CarsData = [
     distanceOnFullTank: 450,
     automatic: true,
     price: 22000,
-    imageUrl: r
+    imageUrl: r,
+    carType: 'Compact'
   },
   {
     id: 19,
@@ -257,7 +276,8 @@ const CarsData = [
     distanceOnFullTank: 400,
     automatic: true,
     price: 25000,
-    imageUrl: s
+    imageUrl: s,
+    carType: 'Truck'
   },
   {
     id: 20,
@@ -268,7 +288,8 @@ const CarsData = [
     distanceOnFullTank: 500,
     automatic: false,
     price: 32000,
-    imageUrl: t
+    imageUrl: t,
+    carType: 'Minivan'
   },
   {
     id: 21,
@@ -279,7 +300,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 350000,
-    imageUrl: u
+    imageUrl: u,
+    carType: 'Sports'
   },
   {
     id: 22,
@@ -290,7 +312,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 280000,
-    imageUrl: v
+    imageUrl: v,
+    carType: 'Sports'
   },
   {
     id: 23,
@@ -301,7 +324,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 270000,
-    imageUrl: w
+    imageUrl: w,
+    carType: 'Sports'
   },
   {
     id: 24,
@@ -312,7 +336,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 350000,
-    imageUrl: x
+    imageUrl: x,
+    carType: 'Sports'
   },
   {
     id: 25,
@@ -323,7 +348,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 3000000,
-    imageUrl: y
+    imageUrl: y,
+    carType: 'Exotic'
   },
   {
     id: 26,
@@ -334,7 +360,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 250000,
-    imageUrl: z
+    imageUrl: z,
+    carType: 'Exotic'
   },
   {
     id: 27,
@@ -345,7 +372,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 400000,
-    imageUrl: aa
+    imageUrl: aa,
+    carType: 'Luxury'
   },
   {
     id: 28,
@@ -356,7 +384,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 90000,
-    imageUrl: ab 
+    imageUrl: ab,
+    carType: 'Luxury'
   },
   {
     id: 29,
@@ -367,7 +396,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 95000,
-    imageUrl: ac
+    imageUrl: ac,
+    carType: 'Luxury'
   },
   {
     id: 30,
@@ -378,7 +408,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 85000,
-    imageUrl: ad
+    imageUrl: ad,
+    carType: 'SUV'
   },
   {
     id: 31,
@@ -389,7 +420,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 35000,
-    imageUrl: ae
+    imageUrl: ae,
+    carType: 'Sedan'
   },
   {
     id: 32,
@@ -400,7 +432,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 30000,
-    imageUrl: af
+    imageUrl: af,
+    carType: 'Sports'
   },
   {
     id: 33,
@@ -411,7 +444,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 70000,
-    imageUrl: ag 
+    imageUrl: ag,
+    carType: 'Sports'
   },
   {
     id: 34,
@@ -422,7 +456,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: ah
+    imageUrl: ah,
+    carType: 'Muscle'
   },
   {
     id: 35,
@@ -433,7 +468,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 40000,
-    imageUrl: ai
+    imageUrl: ai,
+    carType: 'Truck'
   },
   {
     id: 36,
@@ -444,7 +480,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: aj
+    imageUrl: aj,
+    carType: 'Truck'
   },
   {
     id: 37,
@@ -455,7 +492,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 35000,
-    imageUrl: ak
+    imageUrl: ak,
+    carType: 'SUV'
   },
   {
     id: 38,
@@ -466,7 +504,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 38000,
-    imageUrl: al
+    imageUrl: al,
+    carType: 'SUV'
   },
   {
     id: 39,
@@ -477,7 +516,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 32000,
-    imageUrl: am
+    imageUrl: am,
+    carType: 'SUV'
   },
   {
     id: 40,
@@ -488,7 +528,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 450000,
-    imageUrl: an
+    imageUrl: an,
+    carType: 'Exotic'
   },
   {
     id: 41,
@@ -499,7 +540,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 75000,
-    imageUrl: ao
+    imageUrl: ao,
+    carType: 'Luxury'
   },
   {
     id: 42,
@@ -510,7 +552,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 33000,
-    imageUrl: ap
+    imageUrl: ap,
+    carType: 'SUV'
   },
   {
     id: 43,
@@ -521,7 +564,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 60000,
-    imageUrl: aq
+    imageUrl: aq,
+    carType: 'Electric'
   },
   {
     id: 44,
@@ -532,7 +576,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 28000,
-    imageUrl: ar
+    imageUrl: ar,
+    carType: 'Compact'
   },
   {
     id: 45,
@@ -543,7 +588,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 34000,
-    imageUrl: as
+    imageUrl: as,
+    carType: 'SUV'
   },
   {
     id: 46,
@@ -554,7 +600,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 58000,
-    imageUrl: at
+    imageUrl: at,
+    carType: 'SUV'
   },
   {
     id: 47,
@@ -565,7 +612,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 45000,
-    imageUrl: au
+    imageUrl: au,
+    carType: 'Sedan'
   },
   {
     id: 48,
@@ -576,7 +624,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 40000,
-    imageUrl: av
+    imageUrl: av,
+    carType: 'Truck'
   },
   {
     id: 49,
@@ -587,7 +636,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 32000,
-    imageUrl: aw
+    imageUrl: aw,
+    carType: 'Compact'
   },
   {
     id: 50,
@@ -598,7 +648,8 @@ const CarsData = [
     distanceOnFullTank: 300,
     automatic: true,
     price: 33000,
-    imageUrl: ax
+    imageUrl: ax,
+    carType: 'SUV'
   },
 ];
 
