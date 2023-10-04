@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaCalendar, FaUsers, FaBolt, FaRoad, FaCogs, FaDollarSign, FaThumbsUp } from 'react-icons/fa';
 import './carcard.css';
-import imageUrl from './CarsData'
+import PaymentForm from './PaymentForm';
 
 function CarCard({ car }) {
   const {
@@ -15,6 +15,21 @@ function CarCard({ car }) {
     automatic,
     price,
   } = car;
+  const [likes, setLikes] = useState(0);
+  const [isLiked, setIsLiked] = useState(false); // Track whether the button is liked
+
+  const handleLikeClick = () => {
+    if (!isLiked) {
+      setLikes(likes + 1);
+    } else {
+      setLikes(likes - 1);
+    }
+
+    setIsLiked(!isLiked); // Toggle the liked state
+  };
+
+  const likeButtonClass = `like-button ${isLiked ? 'like-button-clicked' : ''}`;
+
 
   return (
     <div className="car-card">
@@ -40,12 +55,13 @@ function CarCard({ car }) {
         <FaDollarSign /> Price: ${price}
       </p>
       <div className='flex' >
-      <button className="like-button">
-        <FaThumbsUp />
-      </button>
-      <button>
-        Rent Now
-      </button>
+      <button className={likeButtonClass} onClick={handleLikeClick}>
+        <FaThumbsUp/>
+          {isLiked ? 'Liked!' : 'Like'}
+          <p> {likes}</p>
+        </button>
+       
+      <PaymentForm car={car} />
       </div>
     </div>
   );

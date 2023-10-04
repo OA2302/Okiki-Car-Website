@@ -112,13 +112,26 @@
 }
 
 /* Add a cool rotation animation to the like button on hover */
-.like-button:hover {
-  animation: rotateLike 0.8s ease-in-out ;
-  width: 15%;
-  font-size: x-large;
-  color: #0078d4;
-  background: #fff;
+/* carcard.css */
+
+.like-button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Add padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 4px; /* Add border radius */
 }
+
+.like-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+
+
+
+
+/* carcard.css */
 
 @keyframes rotateLike {
   0% {
@@ -134,6 +147,14 @@
     font-size: x-large;
   }
 }
+
+/* Apply the animation to the like-button class when the like-button-clicked class is added */
+.like-button.like-button-clicked {
+  background-color: #fff;
+  color: #0056b3;
+  animation: rotateLike 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
 @media screen and (max-width: 768px) {
   .car-card {
     padding: 10px; 
